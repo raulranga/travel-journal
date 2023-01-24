@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Inter";
+  box-sizing: border-box;
+  color: white;
+
+  background-image: url("long-forest-path.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.nav--img {
+  margin-right: 7px;
+  width: 30px;
+  height: 30px;
+}
+
+.nav--text {
+  color: #ffffff;
+}
+
+.locations {
+  margin-left: 40px;
+}
+
+.card {
+  display: flex;
+
+  padding-bottom: 35px;
+}
+
+.card--img {
+  width: 165px;
+  height: 208px;
+  opacity: 0.85;
+
+  margin-right: 20px;
+}
+
+.card--context {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.card--reference {
+  display: flex;
+  align-items: center;
+}
+
+.card--location--mark {
+  width: 12px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.card--city {
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin-right: 12px;
+  line-height: 20px;
+}
+
+.card--desciption {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+
+.card--date {
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.card--text {
+  line-height: 150%;
+  text-align: left;
+  max-width: 700px;
+  height: 75px;
+  overflow: visible;
+}
